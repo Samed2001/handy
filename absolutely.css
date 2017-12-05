@@ -1,16 +1,151 @@
 body {
-	text-align : center;
+	text-align: center;
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
 }
+
 .all {
-	text-align : left;
+	text-align: left;
 	width : 700px;
 	margin : 100px auto;
-	min-height : 600px;
+	min-height : 763px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
 }
 
+#title {
+	position: absolute;
+	left: 306px;
+	top: 56px;
+}
+
+#saw {
+	position: absolute;
+	left: 218px;
+	top: 184px;
+}
+
+#hammer {
+	position: absolute;
+	left: 700px;
+	top: 51px;
+}
+
+#toolbox {
+	position: absolute;
+	left: 480px;
+	top: 310px;
+}
+
+#screwdriver {
+	position: absolute;
+	right: 175px;
+	top: 236px;
+}
+
+#pincers {
+	position: absolute;
+	right: 170px;
+	top: 346px;
+}
+
+h1 {
+	padding-left: 11px;
+}
+
+p {
+	padding-left: 11px;
+}
+
+section {
+	background-color: rgba(232, 233, 234, 0.5);
+	position: relative;
+	top: 389px;
+	padding-bottom: 7px;
+}
+
+#saw {
+	transition: margin-left 1s, margin-top 1s;
+}
+
+#saw:hover {
+	margin-left: 23px;
+	margin-top: 7px;
+}
+
+#title {
+	transition: margin-left 1s, margin-top 1s;
+}
+
+#title:hover {
+	margin-left: 17px;
+	margin-top: 8px;
+}
+
+#pincers {
+	transition: margin-right 1s;
+}
+
+#pincers:hover {
+	margin-right: 21px;
+}
+
+#screwdriver {
+	transition: margin-right 1s, margin-top 1s;
+}
+
+#screwdriver:hover {
+	margin-right: 25px;
+	margin-top: 13px;
+}
+
+#hammer {
+	transition: margin-top 1s;
+}
+
+#hammer:hover {
+	margin-top: 15px;
+}
+
+#humanfactor {
+	color: blue;
+	position: relative;
+}
+
+#humanfactor span {
+	color:black;
+	display: none;
+}
+
+#humanfactor:hover span {
+	display: block;
+	position: absolute;
+	top: 16px;
+	left: 5px;
+	background-color: white;
+	width: 220px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding-left: 5px;
+}
+
+#toolbox ul li {
+	list-style: none;
+	border: 1px solid black;
+	background-color: white;
+	width: 120px;
+}
+
+#toolbox ul li a {
+	text-decoration: none;
+	color: lightgrey;
+	display: none;
+}
+
+#toolbox ul li a:hover {
+	display: block;
+	background-color: yellow;
+	color: black;
+}
