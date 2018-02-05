@@ -10,7 +10,7 @@ body {
 	text-align: left;
 	width : 700px;
 	margin : 100px auto;
-	min-height : 763px;
+	min-height : 725px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
 }
@@ -63,7 +63,6 @@ section {
 	background-color: rgba(232, 233, 234, 0.5);
 	position: relative;
 	top: 389px;
-	padding-bottom: 7px;
 }
 
 #saw {
@@ -131,6 +130,14 @@ section {
 	padding-left: 5px;
 }
 
+#toolbox ul {
+		display: none;
+}
+
+#toolbox:hover ul {
+	display: block;
+}
+
 #toolbox ul li {
 	list-style: none;
 	border: 1px solid black;
@@ -141,11 +148,46 @@ section {
 #toolbox ul li a {
 	text-decoration: none;
 	color: lightgrey;
-	display: none;
 }
 
 #toolbox ul li a:hover {
 	display: block;
 	background-color: yellow;
 	color: black;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+.hoofdmenu li{
+	display: inline;
+}
+
+.hoofdmenu{
+	margin-top: 0;
+	background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(127,127,127, 0.7));
+	width: 100%;
+	margin: 0 auto;
+	height: 25px;
+}
+
+.hoofdmenu:hover{
+	background: linear-gradient( to bottom, rgba(255,255,255,1), rgba(255,255,255,1));
+	background-color: white;
+}
+
+.hoofdmenu a:hover{
+	color: black;
+}
+
+.hoofdmenu a{
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+.hoofdmenu ul{
+	margin-top: 0;
 }
